@@ -1,0 +1,23 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+header{
+    background: #466AE0;
+    height: 17vh;
+    margin-top: -16px;
+}
+
+h1{
+    color: #E06646;
+    justify-content: center;
+    display: flex;
+}
+
+
+main{
+    height: 100vh;
+    background: #E06646;
+    
+}
