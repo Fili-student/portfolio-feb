@@ -2,10 +2,13 @@ body{
 margin: 0;
 padding: 0;
 }
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
 header{
     background: #466AE0;
-    height: 17vh;
+    height: 11vh;
     margin-top: -16px;
     display: flex;
     justify-content: flex-end;
@@ -20,17 +23,21 @@ ul{
 }
 li{
     display: flex;
-    margin-left: 19px;
+    margin-left: 79px;
     text-decoration: none;
-    
+    margin-right: 20px;
+    margin-top: 10px;
 }
 a{
     text-decoration: none;
+    color: white;
+    font-size: 25px;
+
 }
 a:hover{
 color:black;
-background-color: rgb(83, 83, 138, 0.6);
-border-radius: 40px;
+transform: scale(1.6);
+transition: all 600ms ease ;
 }
 
 
@@ -41,10 +48,20 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* funktioniert net */
+h1{
+    transform: translateX(20deg);
+     
+    transition: h1 1.7s ease-out;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+
+
 
 main{
-    height: 130vh;
-    background: #E06646;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,14 +69,60 @@ main{
 }
 footer{
 background: url(regenbogenjelly.jpg);
-    height: 160vh;
+    height: 140vh;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 
-section{
+.oben{
 color:  #90a7f1;
 display: flex;
+justify-content: space-around;
+flex-direction: row;
+align-items: center;
+}
 
+.text{
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    width: 600px;
+    height: 600px;
+    /* border: solid orange 1px; */
+    border-radius: 20px;
+    background: hsl(226, 71%, 58%, 0.9 ) ;
+    /* box-shadow: 3px 7px 146px 56px rgba(139, 154, 240, 0.46); */
+        margin-top:  270px;
+}
+
+h2{
+   /* text-shadow: 7px 7px 7px rgb(129, 1, 72); */
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+img{
+    width: 700px;
+    height: 700px;
+    border-radius: 1000px;
+    /* box-shadow: 3px 7px 146px 56px rgba(190, 23, 23, 0.46); */
+    box-shadow: 3px 7px 146px 56px rgba(139, 154, 240, 0.46);
+    margin-top: 230px;
+
+}
+
+
+.ort > i{
+    margin-top:16px;
+    margin-right: 8px;
+    color: rgb(63, 2, 63);
+}
+
+.ort{
+    display: flex;
+    flex-direction: row;
 }
