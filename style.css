@@ -200,3 +200,54 @@ textarea:focus, input:focus{
 .icons{color: white; 
 font-size: 50px;
 }
+
+
+.skills{
+    background: url(last.jpg);
+    height: 100vh;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills > i{
+    color: white;
+}
+.f1{
+    background: linear-gradient(to right, rgb(63, 2, 63) 85%, white 33.33%, white 33.33%);
+    width: 600px; 
+    height: 30px;
+border-radius: 20px;
+}
+.f2{
+    background: linear-gradient(to right, rgb(63, 2, 63) 75%, white 33.33%, white 33.33%);
+    width: 600px; 
+    height: 30px;
+    border-radius: 20px;
+}
+.f3{
+    background: linear-gradient(to right, rgb(63, 2, 63) 50%, white 33.33%, white 33.33%);
+    width: 600px; 
+    height: 30px; 
+    border-radius: 20px;
+}
+
+
+
+
+
+.ski{
+    background: hsl(226, 71%, 58%, 0.9 ) ;
+    width: 700px;
+    height: 500px;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h4{
+    color: white;
+    font-size: 35px;
+}
+
