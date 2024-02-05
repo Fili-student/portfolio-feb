@@ -153,7 +153,7 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -118px;
+    margin-top: -230px;
 }
 .messy{
     display: flex;
@@ -190,22 +190,67 @@ textarea:focus, input:focus{
     margin-top: 16px;
 }
 
+
+
+
+
+
+
+
+
+
 .ganzunten{
-    height: 50vh;
+    height: 12vh;
     background: #466AE0;
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: space-evenly;
 }
-.icons{color: white; 
+.icons{
+color: white; 
 font-size: 50px;
+display: flex;
+align-items: center;
 }
+
+.ganzunten  p{
+    color: white;
+    font-size: 24px;
+    /* margin-left: 20px; */
+}
+
+.mailph{
+    display: flex;
+    flex-direction: row;
+align-items: center;}
+
+.hinten{
+    margin-right: 20px;
+    display: flex;
+    padding-right: 20px;
+}
+.fa-brands{
+    padding-left: 20px;
+}
+.fa-brands:hover{
+    transform: scale(1.8);
+    transition: all 1s;
+    color: rgb(63, 2, 63);
+}
+
+.fa-phone, .fa-envelope{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
 
 
 .skills{
     background: url(last.jpg);
     height: 100vh;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -251,3 +296,143 @@ h4{
     font-size: 35px;
 }
 
+.ic{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.ic > i{
+    color: white;
+    font-size: 29px;
+    margin-right: 15px;
+}
+
+/* nur für footer background */
+@media screen and (min-width:1704px){
+    footer{
+        background: url(regenbogenjelly.jpg);
+            height: 140vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+        }
+}
+
+
+
+@media screen and (max-width:1439px) and (min-width:694px){
+  h1{
+    font-size: 100px;
+  }   
+  a{
+    font-size:20px ;
+  }
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    /* box-shadow: 3px 7px 146px 56px rgba(190, 23, 23, 0.46); */
+    box-shadow: 3px 7px 146px 56px rgba(139, 154, 240, 0.46);
+    margin-top: 110px;   
+}
+.text{
+padding: 20px;
+font-weight: bold;
+color: white;
+width: 250px;
+height: 640px;
+/* border: solid orange 1px; */
+border-radius: 20px;
+background: hsl(226, 71%, 58%, 0.9 ) ;
+/* box-shadow: 3px 7px 146px 56px rgba(139, 154, 240, 0.46); */
+margin-top:  150px;
+overflow: scroll;
+}
+footer{
+    background: url(regenbogenjelly.jpg);
+        height: 140vh;
+        background-size: contain;
+        background-repeat:repeat;
+    }
+
+    .messy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        width: 520px;
+        height: 570px;
+        background: hsl(226, 71%, 58%, 0.9 ) ;
+        color: white;
+        border-radius: 20px;
+    }
+
+    input, textarea{
+        width:350px;
+        border-radius: 10px;
+    }
+    .ski{
+        background: hsl(226, 71%, 58%, 0.9 ) ;
+        width: 520px;
+        height: 500px;
+        border-radius:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .f1{
+        background: linear-gradient(to right, rgb(63, 2, 63) 85%, white 33.33%, white 33.33%);
+        width: 400px; 
+        height: 30px;
+    border-radius: 20px;
+    }
+    .f2{
+        background: linear-gradient(to right, rgb(63, 2, 63) 75%, white 33.33%, white 33.33%);
+        width: 400px; 
+        height: 30px;
+        border-radius: 20px;
+    }
+    .f3{
+        background: linear-gradient(to right, rgb(63, 2, 63) 50%, white 33.33%, white 33.33%);
+        width: 400px; 
+        height: 30px; 
+        border-radius: 20px;
+    }
+
+
+    .ganzunten  p{
+        color: white;
+        font-size: 18px;
+        /* margin-left: 20px; */
+    }
+    .icons{
+        color: white; 
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and () {
+    
+}
