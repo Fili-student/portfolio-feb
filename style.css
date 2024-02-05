@@ -415,9 +415,68 @@ footer{
 }
 
 
-@media screen and () {
+@media screen and (max-width:693px) {
     
+h1{
+    font-size: 70px;
+    color:#466AE0;
+    /* transition: all color 1s ease; */
 }
+
+a{
+    font-size: 15px;
+}
+li{
+    margin-left: 1px;
+}
+
+.oben{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 290px;
+    height:290px;
+    margin-top: 20px;
+}
+footer{
+    background: url(regenbogenjelly.jpg);
+        height: 150vh;
+        background-size: contain;
+        background-repeat:repeat;
+    }
+main{
+    height: 25vh;
+}
+
+.text{
+    height: 500px;
+    width: 390px;
+    overflow: scroll;
+    margin-top: 20px;
+}
+
+.messy{
+    width: 390px;
+    height: 550px;
+    margin-top: 145px;
+}
+
+.mess{
+    height: 60vh;
+}
+input, textarea{
+    width:250px;
+    border-radius: 10px;
+}
+
+
+}
+
+
+
+
 
 
 
