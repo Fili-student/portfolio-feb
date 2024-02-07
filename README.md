@@ -7,6 +7,7 @@ The javascript skill knowledge is just to fill out the section a bit better :) W
 Hope you enjoy my (full of jellyfish) Portfolio:)
 🪼
 
+ijoidjfoidfjgoifj
 Important Steps of my code 💞 :
 
 ## @keyframes ____{
