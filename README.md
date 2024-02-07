@@ -11,6 +11,18 @@ Important Steps of my code 💞 :
 }
 
 here i wanted for a nice opening effect the h1 to be increasing in size and color to be an eyecatching factor.
+```css
+@media  screen and (max-width:785px) {
+  
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+``
 
 ![Screenshot from 2024-02-07 09-16-50](https://github.com/Fili-student/portfolio-feb/assets/150251603/d41cef84-9df9-413b-ae6b-2860a6e2cc63)
 
