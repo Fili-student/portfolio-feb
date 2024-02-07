@@ -1,7 +1,7 @@
 Hi🪼
 I'm Fili
 This is my first little Portfolio:)
-The Javascript-skill knowledge is just to fill out the section a bit better :) We haven't stardet learning javascript yet.
+The javascript skill knowledge is just to fill out the section a bit better :) We haven't stardet learning javascript yet.
 Hope you enjoy my (full of jellyfish) Portfolio:)
 🪼
 
@@ -31,4 +31,6 @@ In one Example Portfolio, the scrolling snaped the user back or forth to next or
 
 ## background: url(____.jpg);
 
-For my background i used free Pictures from the Website Pexels.com [Pexels.com](https://www.pexels.com/)
+For my background i used free Pictures from the Website [Pexels.com](https://www.pexels.com/).The darkness of the water and the light,pretty colors of the jellyfish made a nice contrast in my opinion so i only used pictures of them 🪼.I hope you like it :)
+
+![Screenshot from 2024-02-07 10-01-39](https://github.com/Fili-student/portfolio-feb/assets/150251603/ee195376-f72e-43ef-a7e7-b2ae77832aa9)
