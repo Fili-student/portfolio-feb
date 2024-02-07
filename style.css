@@ -442,6 +442,15 @@ footer{
           h1 {
             animation: increaseSize 1s linear;
           }
+
+
+          .icons > .gith{
+            color: white; 
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+    }
+
 }
 
 
@@ -546,6 +555,17 @@ border-radius: 20px;
     justify-content: center;
     margin-bottom: 19px;
 }
+.icons >.gith{
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+
+
+
+
 @keyframes increaseSize {
     0% {
       font-size: 0px;
@@ -599,3 +619,16 @@ header, .oben, .mess, .ganzunten{
   }
 
 
+.gith{
+    
+        color: white; 
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+  
+}
+.gith:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    color: rgb(63, 2, 63);
+}
