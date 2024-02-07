@@ -44,7 +44,7 @@ And to say the least it was very easy actually :
 
 ![Screenshot from 2024-02-07 09-24-23](https://github.com/Fili-student/portfolio-feb/assets/150251603/125f3e3e-1c6d-463d-949b-19a721ea6a2c)
 
-´´´css
+```css
 *{
      scrollbar-color: hsl(226, 71%, 58%, 0.9) blue ;
 }
@@ -52,11 +52,23 @@ And to say the least it was very easy actually :
 .text{
 scrollbar-color:rgb(63, 2, 63) blue ;
 }
-``
+```
 
 ## scroll-snap , scroll-snap-align, scroll-snap-type
 
 In one Example Portfolio, the scrolling snaped the user back or forth to next or last element, which would've fit perfectly for my code! So naturally i didn't really have a choice, and started googling for this type of code.
+
+
+```css
+*{
+    scroll-snap-type: y mandatory;
+}
+header, .oben, .mess, .ganzunten{
+    /* text-align: center; */
+    scroll-snap-align: center;
+    /* flex: none; */
+  }
+```
 
 ![Screenshot from 2024-02-07 09-43-18](https://github.com/Fili-student/portfolio-feb/assets/150251603/230942d0-56a2-4163-8074-9cb82982f6c2)
 
