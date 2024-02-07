@@ -1,4 +1,4 @@
-This is my site <3 [https://fili-student.github.io/portfolio-feb/]
+This is my site <3 https://fili-student.github.io/portfolio-feb/
 
 Hi🪼
 I'm Fili
